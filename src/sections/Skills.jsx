@@ -47,8 +47,6 @@ const Skills = () => {
       />
 
       {/* 꽃 장식 */}
-      <span className="absolute top-35 left-200 text-4xl z-20">🌸</span>
-      <span className="absolute bottom-20 right-14 text-4xl z-20">🌼</span>
       <span className="absolute top-1/2 left-50 text-3xl z-20">🌺</span>
 
       {/* 타이틀 */}

@@ -3,7 +3,7 @@ import { Canvas } from "@react-three/fiber";
 import { OrbitControls, useGLTF, useAnimations } from "@react-three/drei";
 import TypingTitle from "../components/TypingTitle";
 
-const About = ({ resumeLink }) => {
+const About = () => {
   return (
     <section id="About" className="relative py-20 px-4 overflow-hidden z-0">
       {/* 배경 */}
@@ -27,14 +27,6 @@ const About = ({ resumeLink }) => {
             "polygon(0 0, 100% 0, 100% 90%, 95% 100%, 85% 92%, 75% 100%, 65% 93%, 55% 100%, 45% 95%, 35% 100%, 25% 94%, 15% 100%, 5% 92%, 0 100%)",
         }}
       />
-
-      {/* 꽃 장식 */} 
-      <span className="absolute bottom-20 left-68 text-4xl z-20">🌼</span> 
-      <span className="absolute bottom-20 left-48 text-4xl z-20">🌼</span> 
-      <span className="absolute bottom-20 left-58 text-4xl z-20">🌼</span> 
-      <span className="absolute bottom-20 left-110 text-4xl z-20">🌼</span> 
-      <span className="absolute bottom-20 left-120 text-4xl z-20">🌼</span> 
-      <span className="absolute bottom-20 left-130 text-4xl z-20">🌼</span> 
 
       {/* 타이틀 */}
       <TypingTitle
@@ -76,7 +68,7 @@ const About = ({ resumeLink }) => {
 
           {/* 버튼 */}
           <div className="flex flex-row items-center gap-6 mt-4" style={{ fontFamily: "'Yeon Sung', system-ui" }}>
-            <a href="/Yeoram_Seo_Resume.pdf" target="_blank" rel="noopener noreferrer">
+            <a href="/YeoramSeo_Resume.pdf" target="_blank" rel="noopener noreferrer">
               <button className="bg-pink-500 text-white px-7 py-2 text-md rounded-lg font-semibold transition-transform duration-300 hover:scale-110">
                 View Resume
               </button>
